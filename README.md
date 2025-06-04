@@ -7,7 +7,7 @@ This is a basic typing test website made with HTML, CSS, and JavaScript.
 1. Download or clone this repository:
    
 ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Samnangalex06/I3_typing_master.git
 ```
 
 2. Open the folder in Visual Studio Code.
