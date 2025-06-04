@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Test</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center font-sans">
+
+  <div class="bg-white shadow-xl rounded-2xl p-8 max-w-2xl w-full space-y-6">
+    <h1 class="text-3xl font-bold text-indigo-700 text-center">Typing Speed Test</h1>
+
+    <div class="bg-gray-100 p-4 rounded-lg text-gray-800 leading-relaxed border border-gray-300">
+      <p id="sample-text">
+        The quick brown fox jumps over the lazy dog. Practice typing this sentence as quickly and accurately as possible.
+      </p>
+    </div>
+
+    <textarea
+      id="typing-area"
+      rows="5"
+      placeholder="Start typing here..."
+      class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 resize-none"
+    ></textarea>
+
+    <div class="flex justify-between items-center">
+      <button
+        class="bg-indigo-600 text-white px-6 py-2 rounded-xl hover:bg-indigo-700 transition"
+      >
+        Submit
+      </button>
+      <p id="result" class="text-gray-700 font-medium"></p>
+    </div>
+  </div>
+</body>
+</html>
